@@ -13,9 +13,7 @@ N/A
 
 ## Usage
 
-What the page should look like:
-
-    ![screenshot](https://user-images.githubusercontent.com/80507333/189470667-36dab90d-99bf-4bea-9925-90bc97618e7c.png)
+To use this website you can click on the links at the top of the page and they will take you to the corresponding content section.
 
 ## Credits
 
