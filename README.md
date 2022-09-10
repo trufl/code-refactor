@@ -15,7 +15,7 @@ N/A
 
 What the page should look like:
 
-    ![ScreenShot](./assets/images/screenshot.png)
+    ![screenshot](https://user-images.githubusercontent.com/80507333/189470667-36dab90d-99bf-4bea-9925-90bc97618e7c.png)
 
 ## Credits
 
