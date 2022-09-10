@@ -15,9 +15,7 @@ N/A
 
 What the page should look like:
 
-    ```md
-    ![alt text](./assets/images/screenshot.png)
-    ```
+    ![ScreenShot](./assets/images/screenshot.png)
 
 ## Credits
 
