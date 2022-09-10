@@ -1,13 +1,18 @@
+/*Uses the universal tag to apply ccs properties to the whole page. This block of code specifies 
+the box sizing, padding, and margin of the page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color in body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Applies CSS properties to the header. The code below continues on 
+to define CSS properties of the header's children elements.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,26 +46,19 @@ header section ul li {
     margin-left: 25px;
 }
 
+/*Sets color and text decoration for all a elements*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Sets font-size for all p elements*/
 p {
     font-size: 16px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h4 {
-    font-size: 20px;
-}
-
+/*Applies CSS rules HTML elements of class hero. In this case an empty 
+section element is used to display a background image under the header and above the main*/
 .hero {
     height: 800px;
     width: 100%;
@@ -70,6 +68,33 @@ footer h4 {
     background-position: center;
 }
 
+/*Sets CSS rules for elements of class content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Applies CSS using class selector for individual sections in content div*/
+.content-cards{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-cards h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-cards img {
+    max-height: 200px;
+}
+
+/*Applies spacing rules for images in content div*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -80,30 +105,7 @@ footer h4 {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#search-engine-optimization, #online-reputation-management, #social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.content img {
-    max-height: 200px;
-}
-
+/*Sets CSS properties for benefits div*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,108 +117,32 @@ footer h4 {
     background-color: #2589bd;
 }
 
-#benefit-lead, #benefit-brand, #benefit-cost {
+/*Applies CSS using class selector for individual sections in benefits div*/
+.benefits-type {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits h3 {
+.benefits-type h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefits-type img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-
-
-
-/*
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-/*#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2*/ 
-
-/*
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
-
-/*#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img*/ 
-
-/*
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-/*
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-/*#benefit-lead h3, #benefit-brand h3, #benefit-cost h3*/ 
-
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
+/*Sets padding, spacing rules(clear), font family, and text alignment for footer element */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+/*Sets font size for h4 element in footer*/
+footer h4 {
+    font-size: 20px;
 }
-*/
-/*#benefit-lead img, #benefit-brand img, #benefit-cost img*/ 
-
-/*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
